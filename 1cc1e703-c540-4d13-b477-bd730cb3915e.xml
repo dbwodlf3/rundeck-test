@@ -1,0 +1,25 @@
+<joblist>
+  <job>
+    <context>
+      <options preserveOrder='true'>
+        <option name='name' />
+      </options>
+    </context>
+    <defaultTab>nodes</defaultTab>
+    <description></description>
+    <executionEnabled>true</executionEnabled>
+    <group>test</group>
+    <id>1cc1e703-c540-4d13-b477-bd730cb3915e</id>
+    <loglevel>INFO</loglevel>
+    <name>HelloRundeck</name>
+    <nodeFilterEditable>false</nodeFilterEditable>
+    <plugins />
+    <scheduleEnabled>true</scheduleEnabled>
+    <sequence keepgoing='false' strategy='node-first'>
+      <command>
+        <exec>echo "Hello Rundeck, Hello $(Options.name)"</exec>
+      </command>
+    </sequence>
+    <uuid>1cc1e703-c540-4d13-b477-bd730cb3915e</uuid>
+  </job>
+</joblist>
