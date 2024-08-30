@@ -1,0 +1,20 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: true
+  group: test
+  id: 1cc1e703-c540-4d13-b477-bd730cb3915e
+  loglevel: INFO
+  name: HelloRundeck
+  nodeFilterEditable: false
+  options:
+  - name: name
+  plugins:
+    ExecutionLifecycle: {}
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - exec: 'echo "Hello Rundeck, Hello $(Options.name)"'
+    keepgoing: false
+    strategy: node-first
+  uuid: 1cc1e703-c540-4d13-b477-bd730cb3915e
+
